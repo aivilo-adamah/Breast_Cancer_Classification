@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idc-pipeline"
+version = "0.1.0"
+description = "Patch-level breast cancer (IDC) histopathology classification pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "torchvision>=0.15",
+    "numpy>=1.24",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.30", "pandas>=2.0", "emoji>=2.10"]
+assets = ["scikit-learn>=1.3", "matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

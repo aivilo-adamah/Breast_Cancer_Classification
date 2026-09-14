@@ -1,0 +1,46 @@
+{
+  "device": "cpu",
+  "best_epoch": 10,
+  "best_metric_name": "f1",
+  "best_metric_value": 0.8513824884792628,
+  "pos_weight": 1.1697948494107377,
+  "train_summary": {
+    "total": 9942,
+    "positive": 4582,
+    "negative": 5360
+  },
+  "val_summary": {
+    "total": 1930,
+    "positive": 811,
+    "negative": 1119
+  },
+  "test_summary": {
+    "total": 2032,
+    "positive": 861,
+    "negative": 1171
+  },
+  "best_val_metrics": {
+    "loss": 0.3458252905563987,
+    "accuracy": 0.8663212435233161,
+    "precision": 0.798918918918919,
+    "recall": 0.9112207151664612,
+    "f1": 0.8513824884792628,
+    "roc_auc": 0.9376893231912944,
+    "tp": 739,
+    "tn": 933,
+    "fp": 186,
+    "fn": 72
+  },
+  "test_metrics": {
+    "loss": 0.4223700203294829,
+    "accuracy": 0.8164370078740157,
+    "precision": 0.744,
+    "recall": 0.8641114982578397,
+    "f1": 0.799570123589468,
+    "roc_auc": 0.9005674294878795,
+    "tp": 744,
+    "tn": 915,
+    "fp": 256,
+    "fn": 117
+  }
+}
